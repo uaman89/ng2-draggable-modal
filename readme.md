@@ -18,7 +18,7 @@ for draggable.ts used https://github.com/AngularClass/angular2-examples/blob/mas
             MyModalComponent
         ],
         ...
-    });
+    })
     ```
 2. html code:
     ```
