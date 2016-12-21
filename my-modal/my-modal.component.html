@@ -1,0 +1,15 @@
+  <div class="modal-dialog my-modal" [draggable]="isDraggable">
+    <div class="modal-content">
+      <div class="modal-header" (mousedown)="draggable(true)" (mouseup)="draggable(false)" >
+        <button type="button" class="close" aria-label="Close" (click)="emitClose()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">{{ title }}</h4>
+      </div>
+      <div class="modal-body">
+
+        <ng-content></ng-content>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->

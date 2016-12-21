@@ -1,0 +1,10 @@
+.my-modal{
+  box-shadow: 0px 0px 30px #333;
+  z-index: 9999;
+
+  .modal-header{
+    background: #d63e33;
+    color: white;
+    cursor: move;
+  }
+}
